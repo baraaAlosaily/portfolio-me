@@ -71,11 +71,13 @@ class Profile extends React.Component {
                   <Row className="justify-content-center">
                     <Col className="order-lg-2" lg="3">
                       <div className="card-profile-image">
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={profile}
+                            src={
+                              "https://scontent.famm3-3.fna.fbcdn.net/v/t1.6435-9/99368826_3971713049568432_1663647473207345152_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeHAC6Uzqdi6PKxg-AwaC0uocm6VkxIZ78dybpWTEhnvxx6_ZWs31lGHV3caFmf2j8ZESJP6WyavnS87StLSIjAE&_nc_ohc=pkXlYsD4Mq4AX95gCA9&_nc_oc=AQl3XzWEfYY-VlNXyriufcy4HRivltvi2Y12UGxiYQJyhlq9LUSsqXCJMlVWvvLVFWQ&_nc_ht=scontent.famm3-3.fna&oh=8e59298686d5a155f878ae6885299ca6&oe=60C93B18"
+                            }
                           />
                         </a>
                       </div>
@@ -89,7 +91,7 @@ class Profile extends React.Component {
                           className="mr-4"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                           size="sm"
                         >
                           Connect
@@ -98,7 +100,7 @@ class Profile extends React.Component {
                           className="float-right"
                           color="default"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                           size="sm"
                         >
                           Message
@@ -108,49 +110,52 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                          <span className="heading">4</span>
+                          <span className="description">Projects</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
-                          <span className="description">Photos</span>
+                          <span className="heading">+2</span>
+                          <span className="description">
+                            Experience(months)
+                          </span>
                         </div>
                         <div>
-                          <span className="heading">89</span>
-                          <span className="description">Comments</span>
+                          <span className="heading">+4</span>
+                          <span className="description">
+                            Software Languages
+                          </span>
                         </div>
                       </div>
                     </Col>
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Baraa Al-Osaily{" "}
+                      <span className="font-weight-light">, 26</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Amman, Jordan
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Software Developer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      ASAC (Abdul Aziz Al-Ghurair School of Advanced Computing)
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                          A former HSE who decided to take the high road and
+                          become Software Engineer, looking for a highly
+                          supportive environment to help develop my Knowledge in
+                          this field.
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
                           Show more
                         </a>
                       </Col>
