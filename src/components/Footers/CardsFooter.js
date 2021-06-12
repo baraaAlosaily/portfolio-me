@@ -135,7 +135,7 @@ class CardsFooter extends React.Component {
                       href="https://www.creative-tim.com/presentation?ref=adsr-footer"
                       target="_blank"
                     >
-                      About Us
+                      About Us.
                     </NavLink>
                   </NavItem>
                   <NavItem>
@@ -143,7 +143,7 @@ class CardsFooter extends React.Component {
                       href="http://blog.creative-tim.com?ref=adsr-footer"
                       target="_blank"
                     >
-                      Blog
+                      Blog.
                     </NavLink>
                   </NavItem>
                 </Nav>
