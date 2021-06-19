@@ -15,15 +15,15 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React from 'react';
 
 // reactstrap components
-import { Button, Card, Container, Row, Col } from "reactstrap";
+import { Button, Card, Container, Row, Col } from 'reactstrap';
 
 // core components
-import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import DemoNavbar from 'components/Navbars/DemoNavbar.js';
+import SimpleFooter from 'components/Footers/SimpleFooter.js';
+import profile from 'assets/img/theme/99368826_3971713049568432_1663647473207345152_n.jpg';
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -75,9 +75,7 @@ class Profile extends React.Component {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={
-                              "https://scontent.famm3-3.fna.fbcdn.net/v/t1.6435-9/99368826_3971713049568432_1663647473207345152_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeHAC6Uzqdi6PKxg-AwaC0uocm6VkxIZ78dybpWTEhnvxx6_ZWs31lGHV3caFmf2j8ZESJP6WyavnS87StLSIjAE&_nc_ohc=pkXlYsD4Mq4AX95gCA9&_nc_oc=AQl3XzWEfYY-VlNXyriufcy4HRivltvi2Y12UGxiYQJyhlq9LUSsqXCJMlVWvvLVFWQ&_nc_ht=scontent.famm3-3.fna&oh=8e59298686d5a155f878ae6885299ca6&oe=60C93B18"
-                            }
+                            src={profile}
                           />
                         </a>
                       </div>
@@ -130,7 +128,7 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Baraa Al-Osaily{" "}
+                      Baraa Al-Osaily{' '}
                       <span className="font-weight-light">, 26</span>
                     </h3>
                     <div className="h6 font-weight-300">
