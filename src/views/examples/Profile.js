@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from 'reactstrap';
 // core components
 import DemoNavbar from 'components/Navbars/DemoNavbar.js';
 import SimpleFooter from 'components/Footers/SimpleFooter.js';
-import profile from 'assets/img/theme/99368826_3971713049568432_1663647473207345152_n.jpg';
+import profile from 'assets/img/theme/myImg.png';
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -76,6 +76,7 @@ class Profile extends React.Component {
                             alt="..."
                             className="rounded-circle"
                             src={profile}
+                            style={{height:"175px"}}
                           />
                         </a>
                       </div>
@@ -108,17 +109,17 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">4</span>
+                          <span className="heading">8</span>
                           <span className="description">Projects</span>
                         </div>
                         <div>
-                          <span className="heading">+2</span>
+                          <span className="heading">+1</span>
                           <span className="description">
-                            Experience(months)
+                            Years
                           </span>
                         </div>
                         <div>
-                          <span className="heading">+4</span>
+                          <span className="heading">+8</span>
                           <span className="description">
                             Software Languages
                           </span>
@@ -138,6 +139,10 @@ class Profile extends React.Component {
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
                       Software Developer
+                    </div>
+                    <div className="h6 mt-4">
+                      <i className="ni business_briefcase-24 mr-2" />
+                      Java | Spring boot | Node JS | Android | React JS | BootStrap
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
